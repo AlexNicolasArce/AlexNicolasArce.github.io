@@ -1,9 +1,8 @@
 :root{
     --primario:#008080;
     --secundario:#f0f8ff;
-    --terciario:	#a9a9a9;
+    --terciario:#a9a9a9;
 }
-
 
 
 body{
@@ -12,7 +11,7 @@ body{
 }
 header{
     height: 65px;
-    background:linear-gradient(-60deg, teal, black);
+    background:linear-gradient( -60deg, teal , black);
     color: white;
     display: flex;
     align-items: center;
@@ -20,7 +19,7 @@ header{
 }
 .cara{
     height: 300px;
-    width: 60%;
+    width: 70%;
     border-radius: 300px;
 }
 
@@ -31,7 +30,7 @@ header{
     flex-direction: row;
     justify-content: center;
     height: 650px;
-    background-color:var(--terciario);
+    background:linear-gradient(-60deg, teal, black);
     color: white;
     /* padding-top: 10%; */
 }
@@ -120,7 +119,7 @@ header{
 }
 
 footer{
-    background:linear-gradient(teal, black);
+    background:linear-gradient( black, teal);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -176,7 +175,7 @@ footer{
     }
 }
 
-p{
+.presentacion{
     font-weight: 500;
     font-size: 15px;
 }
