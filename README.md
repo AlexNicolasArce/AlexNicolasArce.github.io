@@ -1,2 +1,2 @@
-# portfolio.github.io
+portfolio profesiional enfocado al desarrollo web.
 Mi portfolio personal, 
